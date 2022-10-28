@@ -1,0 +1,48 @@
+.labelSort {
+    font-family: monospace,"Courier New",Courier;
+    font-size: 13px;
+}
+
+.Navbar__Select {
+    padding: 4px;
+    border-radius: 7px;
+    background-color: #b6bfb0;
+    font-size: 12px;
+    width: 140px;
+}
+.Navbar__Select:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px grey
+}
+
+.SubNavbar__Select {
+    padding: 4px;
+    border-radius: 7px;
+    background-color: #b6bfb0;
+    font-size: 12px;
+    width: 140px;
+}
+.SubNavbar__Select:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px grey
+}
+
+.filter__Select {
+    padding: 4px;
+    border-radius: 7px;
+    background-color: #b6bfb0;
+    font-size: 12px;
+    width: 140px;
+}
+.filter__Select:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px grey
+}
+
+/* .subNav {
+    margin-right: 20px;
+}
+
+.sort {
+    margin-left: 20px;
+} */

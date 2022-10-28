@@ -1,0 +1,116 @@
+.contain__Details {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.subcontain {
+    background-color: #cad2c5;
+    border: 2px solid #9b9b7a;
+    border-radius: 17px;
+}
+.DetailGrid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    place-items: center;
+    padding-top: 40px;
+}
+.leftDiv img {
+    height: 430px;
+    width: 600px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.leftDiv h1 {
+    text-align: center;
+    font-family: monospace,"Courier New",Courier;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 7px;
+}
+.subContainRight {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.DivWeight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.DivTemperaments {
+    margin-top: 50px;
+}
+.DivTemperaments h3 {
+    color: #000;
+    font-family: monospace,"Courier New",Courier;
+    font-size: 20px;
+    font-style: italic;
+    padding: 7px;
+    text-align: center;
+}
+/* .DivTemperaments span {
+    display: block;
+    text-align: center;
+} */
+.grid__temps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.temp__temp {
+    text-align: center;
+    background-color: #cad2c5;
+    border: 1px solid #9b9b7a;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 7px;
+}
+.contain__button {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonBack {
+    padding: 12px;
+    margin: 20px 0;
+    cursor: pointer;
+    background-color: #cad2c5;
+    color: #000;
+    font-family: monospace,"Courier New",Courier;
+    font-size: 15px;
+    border: 2px solid #9b9b7a;
+    border-radius: 7px;
+    width: 110px;
+}
+.buttonBack:hover{
+    box-shadow: 0 0 10px grey;
+    cursor: pointer;
+}
+
+/* .DivHeight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.DivLifeExpectancy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.rightDiv {
+    margin-top: 50px;
+}
+.rightDiv h3 {
+    color: #000;
+    font-family: monospace,"Courier New",Courier;
+    font-size: 20px;
+    font-style: italic;
+    padding: 7px;
+}
+.DivLifeExpectancy {
+    text-align: center;
+    margin-top: 30px;
+}

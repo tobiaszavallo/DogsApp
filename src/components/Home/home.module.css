@@ -1,0 +1,26 @@
+.Home__containCard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding-top: 150px;
+}
+.HomeDogh1 {
+    text-align: center;
+}
+.fullHeader {
+    background-color: #cad2c5;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+}
+.fullHeader h1 {
+    margin: 0;
+    padding: 0;
+}
+.fullNavbar {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}

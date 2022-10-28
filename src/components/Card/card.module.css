@@ -1,0 +1,55 @@
+.mainDiv:hover{
+    background-color: #bbbbb1;
+    box-shadow: 6px 8px 16px 5px rgba(0,0,0,0.74);
+}
+.mainDiv {
+    width: 350px;
+    height: 450px;
+    border: solid #9B9B7A 1px;
+    background-color: #cad2c5;
+    box-shadow: 23px 25px 49px -8px rgba(0,0,0,0.74);
+    border-radius: 7px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center; 
+    cursor: pointer;
+}
+.mainDiv h2 {
+    font-family: monospace, 'Courier New', Courier;
+    font-size: 20px
+}
+.mainDiv h4 {
+    font-family: monospace, 'Courier New', Courier;
+    font-size: 15px
+}
+.mainDiv img {
+    max-height: 200px;
+    max-width: 300px;
+    min-width: 290px;
+    /* height: 200px;
+    width: 300px; */
+    border-radius: 7px;
+}
+.temperaments{
+    max-width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 7px;
+}
+
+.temp{
+    display: flex;
+    justify-content: space-around;
+    border: solid #9B9B7A 1px;
+    font-family: monospace, 'Courier New', Courier;
+    font-size: 12px;
+    border-radius: 7px;
+    padding: 5px;
+    margin: 10px;
+    margin-top: -5px;
+}

@@ -1,0 +1,70 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ContainerLogo {
+    height: 50px;
+    width: 52px;
+}
+.logoDog {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.containerSecondLogo {
+    height: 50px;
+    width: 52px;
+}
+
+.secondLogoDog {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+
+
+.HeaderAltCont {
+    background-color: #cad2c5;;
+}
+.cont {
+    width: 90%;
+    margin: 0 auto;
+}
+.HeaderAlt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.HeaderAltContainerLogo {
+    height: 50px;
+    width: 52px;
+}
+.HeaderAltLogoDog {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.HeaderAltContainerSecondLogo {
+    height: 50px;
+    width: 52px;
+}
+
+.HeaderAltsecondLogoDog {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.secondGroupNav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
